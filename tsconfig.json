@@ -22,6 +22,12 @@
       "@/public/*": ["./public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/api/notion/server-constants.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/api/notion/server-constants.js",
+    "src/pages/api/index.js"
+  ],
   "exclude": ["node_modules"]
 }
